@@ -1,0 +1,35 @@
+//Created By Diwakar.G
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class Coder : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+    protected void lbHome_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Homepage.aspx");
+    }   
+    protected void lbCoderDetails_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("CodersDetails.aspx");
+    }
+    protected void lbViewProjects_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("ViewAllProjects.aspx");
+    }
+    protected void lbCoderlogOut_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("CoderBuyerLogin.aspx");
+    }
+}

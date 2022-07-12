@@ -1,0 +1,10 @@
+bin\Debug\BusinessLogic.dll
+bin\Debug\BusinessLogic.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BusinessLogic.dll
+obj\Debug\BusinessLogic.pdb
+bin\Release\BusinessLogic.dll
+bin\Release\BusinessLogic.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\BusinessLogic.dll
+obj\Release\BusinessLogic.pdb
